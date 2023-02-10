@@ -5,7 +5,7 @@ dotenv.config({ path: '.env' })
 
 const config = {
     server: {
-        port: process.env.SERVER_PORT
+        port: process.env.SERVER_PORT || 3000
     },
     db: {
 
